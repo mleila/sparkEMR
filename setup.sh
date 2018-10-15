@@ -27,8 +27,8 @@ jar -xf libtensorflow_jni-1.9.0.jar
 
 echo "configuring spark and zeppelin "
 # configure spark and zepplin
-cp spark-env.sh /usr/lib/spark/conf/
-cp interpreter.json /usr/lib/zeppelin/conf/
+sudo cp spark-env.sh /usr/lib/spark/conf/
+sudo cp interpreter.json /usr/lib/zeppelin/conf/
 
 # restart zeppelin
 echo "restarting zeppelin...."
