@@ -1,0 +1,288 @@
+{
+  "interpreterSettings": {
+    "2ANGGHHMQ": {
+      "id": "2ANGGHHMQ",
+      "name": "spark",
+      "group": "spark",
+      "properties": {
+        "zeppelin.spark.printREPLOutput": "true",
+        "spark.yarn.jar": "",
+        "master": "yarn-client",
+        "zeppelin.spark.maxResult": "1000",
+        "zeppelin.dep.localrepo": "/usr/lib/zeppelin/local-repo",
+        "spark.app.name": "Zeppelin",
+        "zeppelin.spark.importImplicit": "true",
+        "zeppelin.interpreter.localRepo": "/usr/lib/zeppelin/local-repo/2ANGGHHMQ",
+        "zeppelin.spark.useHiveContext": "true",
+        "args": "",
+        "spark.home": "/usr/lib/spark",
+        "zeppelin.spark.concurrentSQL": "false",
+        "zeppelin.pyspark.python": "/home/hadoop/anaconda/bin/python",
+        "zeppelin.interpreter.output.limit": "102400"
+      },
+      "status": "DOWNLOADING_DEPENDENCIES",
+      "interpreterGroup": [
+        {
+          "name": "spark",
+          "class": "org.apache.zeppelin.spark.SparkInterpreter",
+          "defaultInterpreter": false,
+          "editor": {
+            "language": "scala",
+            "editOnDblClick": false
+          }
+        },
+        {
+          "name": "pyspark",
+          "class": "org.apache.zeppelin.spark.PySparkInterpreter",
+          "defaultInterpreter": false,
+          "editor": {
+            "language": "python",
+            "editOnDblClick": false
+          }
+        },
+        {
+          "name": "sql",
+          "class": "org.apache.zeppelin.spark.SparkSqlInterpreter",
+          "defaultInterpreter": false,
+          "editor": {
+            "language": "sql",
+            "editOnDblClick": false
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "groupArtifactVersion": "/home/hadoop/spark-deep-learning-1.2.0-spark2.3-s_2.11.jar",
+          "local": false
+        },
+        {
+          "groupArtifactVersion": "/home/hadoop/tensorframes-0.5.0-s_2.11.jar",
+          "local": false
+        },
+        {
+          "groupArtifactVersion": "/home/hadoop/scala-logging-api_2.11-2.1.2.jar",
+          "local": false
+        },
+        {
+          "groupArtifactVersion": "/home/hadoop/scala-logging-slf4j_2.11-2.1.2.jar",
+          "local": false
+        },
+        {
+          "groupArtifactVersion": "/home/hadoop/spark-tensorflow-connector_2.11-1.6.0.jar",
+          "local": false
+        },
+        {
+          "groupArtifactVersion": "/home/hadoop/libtensorflow-1.9.0.jar",
+          "local": false
+        },
+        {
+          "groupArtifactVersion": "/home/hadoop/libtensorflow_jni-1.9.0.jar",
+          "local": false
+        }
+      ],
+      "option": {
+        "remote": true,
+        "port": -1,
+        "perNote": "shared",
+        "perUser": "shared",
+        "isExistingProcess": false,
+        "setPermission": false,
+        "users": [],
+        "isUserImpersonate": false
+      }
+    },
+    "2AM1YV5CU": {
+      "id": "2AM1YV5CU",
+      "name": "angular",
+      "group": "angular",
+      "properties": {},
+      "status": "READY",
+      "interpreterGroup": [
+        {
+          "name": "angular",
+          "class": "org.apache.zeppelin.angular.AngularInterpreter",
+          "defaultInterpreter": false,
+          "editor": {
+            "editOnDblClick": true
+          }
+        }
+      ],
+      "dependencies": [],
+      "option": {
+        "remote": true,
+        "port": -1,
+        "perNote": "shared",
+        "perUser": "shared",
+        "isExistingProcess": false,
+        "setPermission": false,
+        "isUserImpersonate": false
+      }
+    },
+    "2BRWU4WXC": {
+      "id": "2BRWU4WXC",
+      "name": "python",
+      "group": "python",
+      "properties": {
+        "zeppelin.python": "/home/hadoop/anaconda/bin/python",
+        "zeppelin.python.maxResult": "1000"
+      },
+      "status": "READY",
+      "interpreterGroup": [
+        {
+          "name": "python",
+          "class": "org.apache.zeppelin.python.PythonInterpreter",
+          "defaultInterpreter": false,
+          "editor": {
+            "language": "python",
+            "editOnDblClick": false
+          }
+        }
+      ],
+      "dependencies": [],
+      "option": {
+        "remote": true,
+        "port": -1,
+        "perNote": "shared",
+        "perUser": "shared",
+        "isExistingProcess": false,
+        "setPermission": false,
+        "users": [],
+        "isUserImpersonate": false
+      }
+    },
+    "2AJXGMUUJ": {
+      "id": "2AJXGMUUJ",
+      "name": "md",
+      "group": "md",
+      "properties": {},
+      "status": "READY",
+      "interpreterGroup": [
+        {
+          "name": "md",
+          "class": "org.apache.zeppelin.markdown.Markdown",
+          "defaultInterpreter": false,
+          "editor": {
+            "language": "markdown",
+            "editOnDblClick": true
+          }
+        }
+      ],
+      "dependencies": [],
+      "option": {
+        "remote": true,
+        "port": -1,
+        "perNote": "shared",
+        "perUser": "shared",
+        "isExistingProcess": false,
+        "setPermission": false,
+        "isUserImpersonate": false
+      }
+    },
+    "2AKK3QQXU": {
+      "id": "2AKK3QQXU",
+      "name": "sh",
+      "group": "sh",
+      "properties": {
+        "shell.command.timeout.millisecs": "60000"
+      },
+      "status": "READY",
+      "interpreterGroup": [
+        {
+          "name": "sh",
+          "class": "org.apache.zeppelin.shell.ShellInterpreter",
+          "defaultInterpreter": false,
+          "editor": {
+            "language": "sh",
+            "editOnDblClick": false
+          }
+        }
+      ],
+      "dependencies": [],
+      "option": {
+        "remote": true,
+        "port": -1,
+        "perNote": "shared",
+        "perUser": "shared",
+        "isExistingProcess": false,
+        "setPermission": false,
+        "isUserImpersonate": false
+      }
+    }
+  },
+  "interpreterBindings": {
+    "2DS57QW11": [
+      "2ANGGHHMQ",
+      "2AJXGMUUJ",
+      "2AM1YV5CU",
+      "2AKK3QQXU",
+      "2BRWU4WXC"
+    ],
+    "2A94M5J1Z": [
+      "2ANGGHHMQ",
+      "2AJXGMUUJ",
+      "2AM1YV5CU",
+      "2AKK3QQXU",
+      "2BRWU4WXC"
+    ],
+    "2DS1675Z2": [
+      "2ANGGHHMQ",
+      "2AJXGMUUJ",
+      "2AM1YV5CU",
+      "2AKK3QQXU",
+      "2BRWU4WXC"
+    ]
+  },
+  "interpreterRepositories": [
+    {
+      "id": "central",
+      "type": "default",
+      "url": "http://repo1.maven.org/maven2/",
+      "releasePolicy": {
+        "enabled": true,
+        "updatePolicy": "daily",
+        "checksumPolicy": "warn"
+      },
+      "snapshotPolicy": {
+        "enabled": true,
+        "updatePolicy": "daily",
+        "checksumPolicy": "warn"
+      },
+      "mirroredRepositories": [],
+      "repositoryManager": false
+    },
+    {
+      "id": "local",
+      "type": "default",
+      "url": "file:///root/.m2/repository",
+      "releasePolicy": {
+        "enabled": true,
+        "updatePolicy": "daily",
+        "checksumPolicy": "warn"
+      },
+      "snapshotPolicy": {
+        "enabled": true,
+        "updatePolicy": "daily",
+        "checksumPolicy": "warn"
+      },
+      "mirroredRepositories": [],
+      "repositoryManager": false
+    },
+    {
+      "id": "local",
+      "type": "default",
+      "url": "file:///var/lib/zeppelin/.m2/repository",
+      "releasePolicy": {
+        "enabled": true,
+        "updatePolicy": "daily",
+        "checksumPolicy": "warn"
+      },
+      "snapshotPolicy": {
+        "enabled": true,
+        "updatePolicy": "daily",
+        "checksumPolicy": "warn"
+      },
+      "mirroredRepositories": [],
+      "repositoryManager": false
+    }
+  ]
+}
