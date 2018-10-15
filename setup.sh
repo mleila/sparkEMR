@@ -32,5 +32,5 @@ cp interpreter.json /usr/lib/zeppelin/conf/
 
 # restart zeppelin
 echo "restarting zeppelin...."
-sudo /usr/lib/zeppelin/bin/zeppelin-daemon stop
-sudo /usr/lib/zeppelin/bin/zeppelin-daemon start
+sudo /usr/lib/zeppelin/bin/zeppelin-daemon.sh stop
+sudo /usr/lib/zeppelin/bin/zeppelin-daemon.sh start
