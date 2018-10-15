@@ -25,6 +25,10 @@ jar -xf  spark-tensorflow-connector_2.11-1.6.0.jar
 jar -xf libtensorflow-1.9.0.jar
 jar -xf libtensorflow_jni-1.9.0.jar
 
+git clone https://github.com/mleila/atlasOnSpark
+source anaconda/bin/python
+pip install -e atlasOnSpark
+
 echo "configuring spark and zeppelin "
 # configure spark and zepplin
 sudo cp sparkEMR/spark-env.sh /usr/lib/spark/conf/
