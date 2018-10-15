@@ -1,6 +1,8 @@
 # Download dependencies
 echo "downloading dependencies...."
 
+cd /home/hadoop
+
 # tensorframes
 wget http://dl.bintray.com/spark-packages/maven/databricks/tensorframes/0.5.0-s_2.11/tensorframes-0.5.0-s_2.11.jar
 jar -xf tensorframes-0.5.0-s_2.11.jar
