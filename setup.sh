@@ -40,6 +40,7 @@ echo "configuring spark and zeppelin "
 # configure spark and zepplin
 sudo cp sparkEMR/spark-env.sh /usr/lib/spark/conf/
 sudo cp sparkEMR/interpreter.json /usr/lib/zeppelin/conf/
+sudo cp sparkEMR/spark-defaults.conf /usr/lib/spark/conf/
 
 # restart zeppelin
 echo "restarting zeppelin...."
