@@ -26,7 +26,7 @@ jar -xf libtensorflow-1.9.0.jar
 jar -xf libtensorflow_jni-1.9.0.jar
 
 git clone https://github.com/mleila/atlasOnSpark
-source anaconda/bin/python
+source anaconda/bin/activate
 pip install -e atlasOnSpark
 
 echo "configuring spark and zeppelin "
