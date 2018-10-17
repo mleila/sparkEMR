@@ -29,6 +29,13 @@ git clone https://github.com/mleila/atlasOnSpark
 source anaconda/bin/activate
 pip install -e atlasOnSpark
 
+#install sparkdl
+mkdir SparkDL
+mv sparkdl/ SparkDL/
+cp sparkEMR/setup.py SparkDL/
+cp sparkEMR/requirements.txt SparkDL/
+pip install -e SparkDL
+
 echo "configuring spark and zeppelin "
 # configure spark and zepplin
 sudo cp sparkEMR/spark-env.sh /usr/lib/spark/conf/
